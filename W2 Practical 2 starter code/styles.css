@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif; /* General sans-serif font for body text */
+    line-height: 1.6; /* Improves readability */
+    font-size: 1rem; /* base size */
+    color: #333; /* dark gray text for better readability */
+    background-color: #f0f0f5; /* Light grey-blue background */
+    margin: 0;
+    padding: 0;
+}
+
+#content-area {
+    background-color: #ffffff; /* White background */
+    max-width: 1200px; /* Set a max width to prevent huge stretch on big screens */
+    margin: 0 auto; /* Auto left/right margins center it horizontally */
+    padding: 2rem; /* Add some inner spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: a soft shadow to make it pop */
+}
+
+/* All headings (h1 - h6) */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif; /* Different font for headings */
+    font-weight: bold;
+}
+
+/* Special style for the main site heading only */
+#page-title {
+    font-family: 'Trebuchet MS', sans-serif; /* Unique font for page title */
+    font-size: 3em; /* Bigger than other h1s */
+    color: #0055a5; /* A distinct blue color */
+}
+
+/* h1 elements (general) */
+h1 {
+    font-size: 2em; /* 2x normal text size */
+}
+
+/* Links */
+a {
+    text-decoration: none; /* Remove underlines */
+    color: #0066cc; /* Change link color */
+}
+
+/* Make sure links are still obviously different */
+a:hover, a:focus {
+    text-decoration: underline; /* Add underline on hover/focus for better UX */
+}
+
+/* Optional tweaks */
+p {
+    margin-bottom: 1em; /* space between paragraphs */
+}
